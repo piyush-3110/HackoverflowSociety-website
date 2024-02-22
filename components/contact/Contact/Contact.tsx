@@ -80,7 +80,7 @@ function Contact() {
             </h3>
             <a className="hover:text-hsPink" href="mailto:hackoverflow@cumail.in">hackoverflow@cumail.in</a>
             <br />
-            <a className="hover:text-hsPink" href="tel:+91 7597000499">+91 7597000499</a>
+            <a className="hover:text-hsPink" href="tel:+91 8979690577">+91 8979690577</a>
           </div>
 
           <div className="mb-4">
@@ -109,6 +109,7 @@ function Contact() {
               <a className="hover:text-hsPink" href="https://discord.gg/beWGASaKAt">Discord</a>
               <a className="hover:text-hsPink" href="https://www.facebook.com/HACKOVERFLOW3">Facebook</a>
               <a className="hover:text-hsPink" href="https://twitter.com/Hackoverflow3">Twitter</a>
+              <a className="hover:text-hsPink" href="https://www.linkedin.com/company/hackoverflow/">LinkedIn</a>
             </div>
           </div>
         </section>

@@ -27,6 +27,6 @@ export const teams = [
   {
     title: "Tech team",
     image: "/Team/teams/1.png",
-    members: 4,
+    members: 10,
   },
 ];

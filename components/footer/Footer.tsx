@@ -7,6 +7,7 @@ import {
   AiFillTwitterSquare,
   AiFillFacebook,
   AiFillInstagram,
+  AiFillLinkedin,
 } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 function Socials({ heightWidth = 22, className = "", override = false }) {
@@ -44,6 +45,13 @@ function Socials({ heightWidth = 22, className = "", override = false }) {
 
         <a href="https://www.facebook.com/HACKOVERFLOW3" title="facebook">
           <AiFillFacebook
+            className="hover:text-hsPink text-white"
+            size={heightWidth}
+          />
+        </a>
+
+        <a href="https://www.linkedin.com/company/hackoverflow/" title="facebook">
+          <AiFillLinkedin
             className="hover:text-hsPink text-white"
             size={heightWidth}
           />
@@ -172,7 +180,7 @@ export default function Footer() {
                 </li>
 
                 <li className="mb-4 hover:underline">
-                  <a href="tel:+91 7597000499">+91 7597000499</a>
+                  <a href="tel:+91 8979690577">+91 8979690577</a>
                 </li>
 
                 <li className="mb-4 lg:hidden">

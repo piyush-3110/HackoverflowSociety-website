@@ -98,21 +98,17 @@ function team() {
 
 
           <h2 className="font-clashDisplay  font-medium text-5xl md:text-6xl text-center text-hsWhite mb-24">
-            Chairperson
+            General Secretary
           </h2>
           <div className={`grid grid-cols-1 gap-y-7     gap-x-5 `}>
             <Card
-              image="/Team/manan.jpeg"
-              name="Manan Kala"
+              image="/Team/Rudra_Pratap.jpg"
+              name="Rudra Pratap Singh"
             // designation="Founder"
             />
-
           </div>
         </section>
-        <section className="border-t py-24 relative isolate ">
-
-
-
+        {/* <section className="border-t py-24 relative isolate ">
           <h2 className="font-clashDisplay  font-medium text-5xl md:text-6xl text-center text-hsWhite mb-24">
             Joint Secretary
           </h2>
@@ -121,26 +117,27 @@ function team() {
               image="/Team/nikhil.png"
               name="Nikhil Anand"
             />
-
           </div>
-        </section>
+        </section> */}
         <section className="border-t py-24 relative isolate ">
-
-
-
           <h2 className="font-clashDisplay  font-medium text-5xl md:text-6xl text-center text-hsWhite mb-24">
             Management Secretary
           </h2>
-          <div className={`grid grid-cols-1 gap-y-7 sm:grid-cols-2     gap-x-5 `}>
+          <div className={`grid grid-cols-1 gap-y-7 sm:grid-cols-3 gap-x-5 `}>
             <Card
-              image="/Team/alvina.jpeg"
-              name="Alvina"
+              image="/Team/Umar_Khan.jpg"
+              name="Umar Khan"
               designation="Internal Management Secretary"
             />
             <Card
-              image="/Team/shashank.png"
-              name="Shashank Sharma"
+              image="/Team/Mehdi_Abbas.jpg"
+              name="Mehdi Abbas"
               designation="External Management Secretary"
+            />
+            <Card
+              image="/Team/Muskan.jpg"
+              name="Muskan Singh"
+              designation="Treasurer"
             />
 
           </div>

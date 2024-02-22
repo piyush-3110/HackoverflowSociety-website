@@ -77,7 +77,9 @@ function Discord() {
                 type="button"
                 className="rounded-full navlink   w-fit mx-auto  p-2 sm:px-3 bg-hsBlue text-hsWhite font-generalSans  hidden lg:block text-sm"
               >
-                Join the server
+                <a href="https://discord.gg/beWGASaKAt" title="discord server link">
+                  Join the server
+                </a>
               </button>
             </div>
             {/* inner images */}
