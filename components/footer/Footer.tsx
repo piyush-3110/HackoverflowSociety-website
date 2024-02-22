@@ -248,7 +248,7 @@ export default function Footer() {
     </>
   );
 }
-
+// foooter part part part part example
 /*
 <div className="flex flex-col items-end">
                 <h3 className="mb-6 text-3xl flex-1 cdisplaySemibold">Reach Us</h3>

@@ -56,6 +56,8 @@ function Contact() {
             required
           />
 
+          
+
           <textarea
             ref={messageRef}
             name="message"
