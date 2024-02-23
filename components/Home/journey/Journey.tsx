@@ -129,27 +129,20 @@ const timeline: Timeline[] = [
   },
   {
     id: 6,
-    title: "The Hack",
-    year: "2021",
-    description:
-      "The journey of Hackoverflow Society has been a roller-coaster ride, pioneering a fresh business-tech concept - “Hack The Fest”. It is the team’s hard work that ultimately positioned Hackoverflow Society to execute such wonderful events. We believe “the journey is more important than the destination”, and our community continues to grow stronger than ever.",
-  },
-  {
-    id: 7,
     title: "The Renaissance",
     year: "2022",
     description:
       "The year 2022 was brimming with innovative events. Picture Jam, Codebait, Hack-The-Fest, and Thandshala all contributed to a dynamic calendar. These events brought together enthusiasts to explore creativity, technology, and knowledge-sharing.",
   },
   {
-    id: 8,
+    id: 7,
     title: "The Momentum",
     year: "2023",
     description:
       "In 2023, the society continued its streak of impactful gatherings. From celebrating HS Day to hosting Tech Confluence and Collabcode Carnival, each event fostered collaboration and learning. Hack 1-on-1 capped off the year with its engaging format, ensuring another successful chapter for our community.",
   },
   {
-    id: 9,
+    id: 8,
     title: "The Present",
     year: "2024",
     description:
