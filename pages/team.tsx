@@ -57,14 +57,14 @@ function team() {
           </h2>
           <div className={`grid grid-cols-1 gap-y-7  sm:grid-cols-2   gap-x-5 `}>
             <Card
-              image="/Team/ak.jpg"
-              name="Dr. Arvinder Singh Kang"
-              designation="Director,DSW , Chandigarh University"
+              image="/Team/Aa.jpg"
+              name="Dr. Abhineet Anand"
+              designation="Director AIT-CSE , Chandigarh University"
             />
             <Card
-              image="/Team/egov.png"
-              name="Ms. Shefali Verma"
-              designation="Head of E-Governance, Chandigarh University"
+              image="/Team/anil.jpg"
+              name="Er. Anil Manohar Dogra"
+              designation="Faculty coordinator, Chandigarh University"
             />
           </div>
         </section>
