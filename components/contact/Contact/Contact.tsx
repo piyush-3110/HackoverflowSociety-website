@@ -82,6 +82,7 @@ function Contact() {
             </h3>
             <a className="hover:text-hsPink" href="mailto:hackoverflow@cumail.in">hackoverflow@cumail.in</a>
             <br />
+            {/* Rudra's contact number */}
             <a className="hover:text-hsPink" href="tel:+91 8979690577">+91 8979690577</a>
           </div>
 
