@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="flex  flex-col lg:justify-between lg:flex-row  gap-x-3">
           {/* Logo and other content */}
           <div className="basis-1/3 self-center lg:self-auto">
-            <div className="flex flex-col lg:flex-row items-center mb-20 lg:mb-4">
+            <div className="flex flex-col lg:flex-row items-center mb-12 lg:mb-4">
               <div className="mb-5 lg:mb-0 lg:pr-3">
                 <div className="hidden lg:block">
                   <Image
@@ -130,7 +130,7 @@ export default function Footer() {
           </div>
 
           {/* Grid for navigation */}
-          <div className="gap-x-4 grid grid-cols-2  gap-1 text-white">
+          <div className="gap-x-4 grid grid-cols-1 lg:grid-cols-2 gap-1 text-white">
             {/* Events column */}
             {/* <div className="justify-self-center font-Montserrat">
               <h3 className="mb-6 lg:mt-0 text-base font-clashDisplay tracking-wider font-semibold">
@@ -168,7 +168,7 @@ export default function Footer() {
             </div> */}
 
             {/* Contact info column */}
-            <div className="justify-self-center font-Montserrat">
+            <div className="text-center lg:text-left justify-self-center font-Montserrat mx-8">
               <h3 className="mb-6 text-base font-clashDisplay tracking-wider font-semibold">
                 Contact Us
               </h3>
@@ -178,11 +178,9 @@ export default function Footer() {
                     hackoverflow@cumail.in
                   </a>
                 </li>
-
                 <li className="mb-4 hover:underline">
                   <a href="tel:+91 8979690577">+91 8979690577</a>
                 </li>
-
                 <li className="mb-4 lg:hidden">
                   <a
                     href="https://cuchd.in"
@@ -197,12 +195,10 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
             {/* Mini-Contact form */}
             <div className="hidden lg:flex flex-col items-end justify-between">
               <div className="hidden lg:grid grid-cols-2 text-white font-bold uppercase">
                 <div>Follow Us</div>
-
                 <Socials />
               </div>
             </div>
