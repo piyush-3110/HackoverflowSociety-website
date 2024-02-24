@@ -11,7 +11,7 @@ import {
 } from "react-icons/ai";
 import { FaDiscord } from "react-icons/fa";
 function Socials({ heightWidth = 22, className = "", override = false }) {
-  let classes = "grid grid-cols-4 gap-1 " + className;
+  let classes = "grid grid-cols-5 gap-1 " + className;
   if (override) {
     classes = className;
   }
