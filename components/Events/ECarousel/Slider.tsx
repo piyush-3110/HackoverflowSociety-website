@@ -25,9 +25,8 @@ const Slider = () => {
                 hasPrev && <Button onClickHandler={onClickHandler} label={label} />
             }
         >
-            <Card title="HS DAY" description="HS Day is an annual event that celebrates the establishment of the Hackoverflow Society, the most prominent student society at Chandigarh University. The day includes competitive events that allow students from all departments to showcase their talents and learn about the society's accomplishments. It is held to celebrate the achievements of the society and its members. " />
-            <Card title="Hack-the-Fest" description="A four-day full-fledged fest in conjunction with the fourth edition of Hackoverflow 4.0. With the vision to promote entrepreneurship and technology on a large scale, as well as provide a platform for students from all fields and interests, team Hackoverflow organized one of the largest techno-entrepreneurial fest of the year.
-" />
+            <Card title="HackOverflow Chronicles" description="Cups of coffee fuelling the 36-hour coding marathon, a testament to the participants' unwavering dedication and excitement. Hackoverflow has always been the heir to the first-ever National Hackathon conducted in the premises of Chandigarh University. Over the past four exhilarating editions of HackOverflow, we've witnessed exponential growth in participation, innovation, and impact. " />
+            <Card title="Coming Soon" description="" />
             {/* <Card title="Google Hashcode '22" dateString="June 20, 2021" /> */}
             {/* <Card title="Google Hashcode '24" dateString="June 20, 2021" /> */}
             {/* <Card title="Google Hashcode '25" dateString="June 20, 2021" /> */}
