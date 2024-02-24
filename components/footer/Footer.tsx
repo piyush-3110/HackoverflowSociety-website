@@ -79,7 +79,7 @@ export default function Footer() {
         <div className="flex  flex-col lg:justify-between lg:flex-row  gap-x-3">
           {/* Logo and other content */}
           <div className="basis-1/3 self-center lg:self-auto">
-            <div className="flex flex-col lg:flex-row items-center mb-20 lg:mb-4">
+            <div className="flex flex-col lg:flex-row items-center mb-12 lg:mb-4">
               <div className="mb-5 lg:mb-0 lg:pr-3">
                 <div className="hidden lg:block">
                   <Image
@@ -168,7 +168,7 @@ export default function Footer() {
             </div> */}
 
             {/* Contact info column */}
-            <div className="justify-self-center font-Montserrat mx-8">
+            <div className="text-center lg:text-left justify-self-center font-Montserrat mx-8">
               <h3 className="mb-6 text-base font-clashDisplay tracking-wider font-semibold">
                 Contact Us
               </h3>
