@@ -130,7 +130,7 @@ export default function Footer() {
           </div>
 
           {/* Grid for navigation */}
-          <div className="gap-x-4 grid grid-cols-2  gap-1 text-white">
+          <div className="gap-x-4 grid grid-cols-1 lg:grid-cols-2 gap-1 text-white">
             {/* Events column */}
             {/* <div className="justify-self-center font-Montserrat">
               <h3 className="mb-6 lg:mt-0 text-base font-clashDisplay tracking-wider font-semibold">
@@ -168,7 +168,7 @@ export default function Footer() {
             </div> */}
 
             {/* Contact info column */}
-            <div className="justify-self-center font-Montserrat">
+            <div className="justify-self-center font-Montserrat mx-8">
               <h3 className="mb-6 text-base font-clashDisplay tracking-wider font-semibold">
                 Contact Us
               </h3>
@@ -178,11 +178,9 @@ export default function Footer() {
                     hackoverflow@cumail.in
                   </a>
                 </li>
-
                 <li className="mb-4 hover:underline">
                   <a href="tel:+91 8979690577">+91 8979690577</a>
                 </li>
-
                 <li className="mb-4 lg:hidden">
                   <a
                     href="https://cuchd.in"
@@ -197,12 +195,10 @@ export default function Footer() {
                 </li>
               </ul>
             </div>
-
             {/* Mini-Contact form */}
             <div className="hidden lg:flex flex-col items-end justify-between">
               <div className="hidden lg:grid grid-cols-2 text-white font-bold uppercase">
                 <div>Follow Us</div>
-
                 <Socials />
               </div>
             </div>
