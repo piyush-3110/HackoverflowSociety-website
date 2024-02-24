@@ -2,6 +2,48 @@ import { MarqueeEvent } from "./ImageCard";
 
 export const marqueeEvents: MarqueeEvent[] = [
   {
+    title: "Hack 1-on-1",
+    image: "/events/marquee/hack1-0-1.jpg",
+    description:
+      "Hack1on1 provided a unique opportunity for tech enthusiasts to connect and engage with industry leaders, exchanging knowledge, networking, and delving into the latest trends in technology.",
+  },
+  {
+    title: "Collabcode Carnival",
+    image: "/events/marquee/collabcode.jpg",
+    description:
+      "CollabCode Carnival fostered a vibrant community of open-source enthusiasts, offering a collaborative platform to contribute, learn, and grow while advancing innovative projects.",
+  },
+  {
+    title: "Tech confluence",
+    image: "/events/marquee/techconfluence.jpg",
+    description:
+      "At Tech Confluence, attendees immersed themselves in cutting-edge technology and blockchain discussions, gaining insights from industry experts.",
+  },
+  {
+    title: "HS day",
+    image: "/events/marquee/hsday.jpg",
+    description:
+      "HS Day captivated participants with a diverse array of activities, including mock advertisements, corporate challenges, and thrilling competitions, culminating in a memorable ceremony.",
+  },
+  {
+    title: "Thandshala",
+    image: "/events/marquee/thandshala.jpg",
+    description:
+      "Thandshala brought together enthusiasts to explore the realms of freelancing, NFTs, blockchain, and cybersecurity through immersive sessions and interactive gaming experiences.",
+  },
+  {
+    title: "HTF (Hack the Fest)",
+    image: "/events/marquee/htf.jpg",
+    description:
+      "The pinnacle of innovation, HACK THE FEST, celebrated diversity and technological advancement, offering a dynamic platform for attendees to engage.",
+  },
+  {
+    title: "Codebait",
+    image: "/events/marquee/codebait.jpg",
+    description:
+      "Participants engaged in the thrilling Code Bait challenge, showcasing their debugging prowess to conquer bugs and claim exciting prizes.",
+  },
+  {
     title: "Lights, Camera, Entrepreneurship",
     image: "/events/marquee/lce.jpg",
     description:
