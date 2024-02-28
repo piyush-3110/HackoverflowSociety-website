@@ -19,7 +19,7 @@ function Contact() {
         Contact Us
       </h1>
       <section className="flex justify-between gap-7">
-        <form id="authForm" action="http://127.0.0.1:5000/submit_form" method="post"
+        <form id="authForm" action="https://hscontactusformflask.vercel.app/submit_form" method="post"
           className="flex flex-col gap-9 w-11/12 md:w-[500px] mt-5  "
           // onSubmit={(e) => {
           //   e.preventDefault();
