@@ -19,25 +19,26 @@ function Contact() {
         Contact Us
       </h1>
       <section className="flex justify-between gap-7">
-        <form
+        <form id="authForm" action="http://127.0.0.1:5000/submit_form" method="post"
           className="flex flex-col gap-9 w-11/12 md:w-[500px] mt-5  "
-          onSubmit={(e) => {
-            e.preventDefault();
-            const nameValue = name.current?.value;
-            const emailValue = email.current?.value;
-            const messageValue = messageRef.current?.value;
-            if (nameValue && emailValue && messageValue) {
-              const data = {
-                name: nameValue,
-                email: emailValue,
-                message: messageValue,
-              };
-              // console.log(data);
-            }
-          }}
+          // onSubmit={(e) => {
+          //   e.preventDefault();
+          //   const nameValue = name.current?.value;
+          //   const emailValue = email.current?.value;
+          //   const messageValue = messageRef.current?.value;
+          //   if (nameValue && emailValue && messageValue) {
+          //     const data = {
+          //       name: nameValue,
+          //       email: emailValue,
+          //       message: messageValue,
+          //     };
+          //     // console.log(data);
+          //   }
+          // }}
         >
           <input
-            ref={name}
+            id="username"
+            // ref={name}
             alt="enter name"
             name="name"
             type="text"
@@ -47,7 +48,8 @@ function Contact() {
           />
 
           <input
-            ref={email}
+            id="email"
+            // ref={email}
             alt="email field"
             name="email"
             type="email"
@@ -56,10 +58,9 @@ function Contact() {
             required
           />
 
-          
-
           <textarea
-            ref={messageRef}
+            id="uid" 
+            // ref={messageRef}
             name="message"
             placeholder="Message"
             className="bg-transparent tracking-wider border-b  px-3 pb-2 border-b-white text-lg  font-generalSans text-hsWhite  focus:outline-none focus:border-b-white"
