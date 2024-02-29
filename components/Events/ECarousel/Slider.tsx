@@ -25,8 +25,10 @@ const Slider = () => {
                 hasPrev && <Button onClickHandler={onClickHandler} label={label} />
             }
         >
-            <Card title="HackOverflow Chronicles" description="Cups of coffee fuelling the 36-hour coding marathon, a testament to the participants' unwavering dedication and excitement. Hackoverflow has always been the heir to the first-ever National Hackathon conducted in the premises of Chandigarh University. Over the past four exhilarating editions of HackOverflow, we've witnessed exponential growth in participation, innovation, and impact. " />
-            <Card title="Coming Soon" description="" />
+            <Card url="/events/htf.jpg" title="Hack the Fest" description="Cups of coffee fuelling the 36-hour coding marathon, a testament to the participants' unwavering dedication and excitement. Hackoverflow has always been the heir to the first-ever National Hackathon conducted in the premises of Chandigarh University. Over the past four exhilarating editions of HackOverflow, we've witnessed exponential growth in participation, innovation, and impact. " />
+            <Card url="/events/HS_day.png" title="HS Day" description="HS Day is an annual celebration that commemorates the establishment of the Hackoverflow Society, the most prominent student society at Chandigarh University. With the vision to give students a memorable experience, we have designed HS Day to feature a variety of competitive and exciting events to engage and inspire students. Our goal is to create an event full of fun and meaningful experiences at Chandigarh University that students will cherish for years to come." />
+            <Card url="/events/coming_soon.jpg" title="Coming Soon!" description="" />
+            
             {/* <Card title="Google Hashcode '22" dateString="June 20, 2021" /> */}
             {/* <Card title="Google Hashcode '24" dateString="June 20, 2021" /> */}
             {/* <Card title="Google Hashcode '25" dateString="June 20, 2021" /> */}
@@ -98,9 +100,9 @@ function Card({
             "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Gravida tempus faucibus eget aliquet gravida curabitur blandit vitae cursus. Ut odio adipiscing vestibulum nec, ridiculus adipiscing pellentesque ridiculus.";
     }
     return (
-        <div className="  mb-9 grid grid-flow-row md:grid-flow-col md:grid-cols-2  gap-2 py-10 place-items-center px-9 md:px-4 ">
+        <div className="mb-9 grid grid-flow-row md:grid-flow-col md:grid-cols-2  gap-2 py-10 place-items-center px-9 md:px-4">
             <Image
-                src="/events/coming_soon.jpg"
+                src={url||''}
                 height="291"
                 width="513"
                 alt="hashcode"
