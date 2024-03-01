@@ -20,7 +20,22 @@ jobs:
         run: npm run build # The build command of your project
       - name: export
         run: npm run export
+        
+      - name: Get node version
+        id: node
+        run: |
+          echo "::set-output name=version::$(node -v)"
 
+      - name: Get node_modules cache
+        uses: actions/cache@v3.0.2
+        id: node_modules
+        with:
+          path: |
+            **/node_modules
+          key: ${{ runner.os }}-node_modules-${{ hashFiles('**/yarn.lock') }}-${{ steps.node.outputs.version }}
+
+      - run: yarn install
+          
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
