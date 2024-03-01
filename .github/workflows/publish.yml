@@ -20,7 +20,14 @@ jobs:
         run: npm run build # The build command of your project
       - name: export
         run: npm run export
-
+        
+      - uses: actions/setup-node@v3.1.1
+        with:
+          node-version: v16.14.2
+          cache: 'yarn'
+          # Useful for caching dependencies in monorepos:
+          cache-dependency-path: yarn.lock
+          
       - name: Push
         uses: s0/git-publish-subdir-action@develop
         env:
