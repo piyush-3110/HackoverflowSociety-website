@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: npm run build # The build command of your project
       - name: export
-        run: npm export
+        run: npm run export
 
       - name: Push
         uses: s0/git-publish-subdir-action@develop
