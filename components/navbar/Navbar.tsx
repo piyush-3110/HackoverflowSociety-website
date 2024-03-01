@@ -9,6 +9,11 @@ function Navbar({ path }: { path: string }) {
   const loading = useLoader((state) => state.loading);
   const [navVisibility, setNavVisibility] = useState(false);
   const navbar = useRef<HTMLUListElement>(null);
+  const handleItemClick = () => {
+    if (window.innerWidth < 1024) { 
+      setNavVisibility(false); // Close navbar
+    }
+  };
   useEffect(() => {
     if (path != "/") {
       useLoader.getState().setLoaded();
@@ -43,6 +48,7 @@ function Navbar({ path }: { path: string }) {
                 ? " pointer-events-none text-hsPink"
                 : " pointer-events-auto hover:after:w-full "
                 }`}
+                onClick={handleItemClick}
             >
               Home
             </Link>
@@ -54,6 +60,7 @@ function Navbar({ path }: { path: string }) {
                 ? " pointer-events-none text-hsPink"
                 : " pointer-events-auto hover:after:w-full "
                 }`}
+                onClick={handleItemClick}
             >
               Events
             </Link>
@@ -76,6 +83,7 @@ function Navbar({ path }: { path: string }) {
                 ? " pointer-events-none text-hsPink"
                 : " pointer-events-auto hover:after:w-full "
                 }`}
+                onClick={handleItemClick}
             >
               Team
             </Link>
@@ -87,6 +95,7 @@ function Navbar({ path }: { path: string }) {
                 ? " pointer-events-none text-hsPink"
                 : " pointer-events-auto hover:after:w-full "
                 }`}
+                onClick={handleItemClick}
             >
               About Us
             </Link>
@@ -98,6 +107,7 @@ function Navbar({ path }: { path: string }) {
                 ? " pointer-events-none text-hsPink"
                 : " pointer-events-auto hover:after:w-full "
                 }`}
+                onClick={handleItemClick}
             >
               Contact Us
             </Link>
