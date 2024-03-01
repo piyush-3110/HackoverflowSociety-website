@@ -42,7 +42,7 @@ function HeroSection() {
   return (
     <main className="flex flex-col-reverse lg:flex-row  items-center justify-between lg:gap-5   lg:mt-10 pb-24 px-5 ">
       <section className="max-w-[580px] lg:max-w-[575px] space-y-5 lg:space-y-6  z-30 flex flex-col flex-grow lg:flex-grow-0 ">
-        <h2 className="bg-red-900 font-clashDisplay font-medium text-white  text-3xl md:text-5xl lg:text-6xl text-center lg:text-start ">
+        <h2 className="font-clashDisplay font-medium text-white  text-3xl md:text-5xl lg:text-6xl text-center lg:text-start ">
           Fastest growing student society in North India
         </h2>
         <p className="font-Montserrat text-hsWhite leading-7 text-center lg:text-justify text-sm md:text-base">
