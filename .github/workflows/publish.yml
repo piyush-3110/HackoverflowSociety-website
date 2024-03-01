@@ -18,6 +18,7 @@ jobs:
 
       - name: Build
         run: npm run build # The build command of your project
+      - name: export
         run: npm export
 
       - name: Push
